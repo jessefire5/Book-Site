@@ -1,0 +1,347 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 25px;
+  max-width: 1000px;
+  /* Mr Rogers Comment: The color css element below refers to font color.*/
+  color: #000000;
+  margin-top:5px;
+  margin: 0;
+  background-color: #ded16f;
+  background-image: url("images/Vasily.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top:20px;
+  bottom: 20px;
+  left: 50px;
+  right: 50px;
+  margin: auto;
+}
+
+
+/* Rogers Comment: Sometimes it is necessary to create a container that gives a webpage form. To do this one would create a class and use the div tag. You can add images a background color and more.*/
+.bodybg 
+{
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #391a1e;
+  
+}
+
+
+h1 {
+  font-size: 40px;
+}
+
+article
+{
+  float: left;
+  display:inline-block;
+  justify-content: center;
+  padding-left: 5px;
+  background-color: #ffffff;
+  margin:auto;
+  width: 30%;
+  height:350px;
+  border-width: thick
+}
+
+article2
+{
+  float: center;
+  display:inline-block;
+  justify-content: center;
+  padding-left: 5px;
+  background-color: #ffffff;
+  margin:auto;
+  width: 30%;
+  height: 350px;
+  border-width: thick;
+}
+
+article3
+{
+  float: right;
+  display:inline-block;
+  justify-content: center;
+  padding-left: 5px;
+  background-color: #ffffff;
+  margin:auto;
+  width: 30%;
+  height: 350px;
+  border-width: thick;
+}
+
+header
+{
+  clear: both;
+  padding:0px;
+  text-align: center;
+  font-size: 45px;
+  color: #f6ebeb;
+  text-shadow: #100d0d 3px 0 5px, #dee289 6px 0 9px;
+  background-color: rgba(112, 4, 4, 0.51);
+  background-image: url(images/books.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size; 100% 100%;
+  height: 210px;
+  padding:5px;
+  margin-top:5px;
+  margin: 0;
+}
+
+aside
+{
+  clear: both;
+  margin-top:5px;
+  background-color:#f0eaea;
+  padding:5px;
+  text-align:center;
+  font-style:bold;
+  background-image: url(images/thumb.jpg);
+  font-weight: 1000; 
+}
+
+section
+{
+  padding:5px;
+  margin-top:5px;
+  background-color: #ffffff;
+  background-image: url(images/download.jpg);
+  font-weight: 1000; 
+
+
+}
+
+footer
+{
+  padding:5px;
+  text-align:center;
+  font-weight:bold;
+  color: #ffffff;
+  background-color: #0d0c0c;
+}
+
+nav
+{
+  text-align:center;
+}
+ul li
+{
+  display:inline;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:left;
+  font-size:16px;
+  font-weight:bold;
+}
+
+
+
+nav 
+{
+  background-color: #333;
+  border: 1px solid #333;
+  color: #fff;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+  transition: all 0.2s;
+}
+
+nav > ul > li > a {
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+nav li > ul{
+  display : none;
+  margin-top:1px;
+  background-color: #bbb;
+
+}
+
+nav li > ul li{
+  display: block;
+}
+
+nav  li > ul li a {
+  color: #111;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #666;
+}
+
+nav li:hover > ul{
+  position:absolute;
+  display : block;
+}
+
+nav li > ul > li ul  {
+  display: none;
+  background-color: #888;
+}
+
+nav li > ul > li:hover > ul  {
+  position:absolute;
+  display : block;
+  margin-left:100%;
+  margin-top:-3em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border: solid;
+  float:left;
+  height: 1000px;
+ 
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+table, th, tr {
+  border: 3px solid black;
+
+ 
+}
